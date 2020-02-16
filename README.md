@@ -3,9 +3,14 @@
 Easy-to-use RabbitMQ Queue library for .NET products.
 This is project is derived from [RabbitMQ.Cliente](https://www.rabbitmq.com/dotnet.html) library.
 
+## [Source Code](https://github.com/kaiocn1/kn-rabbitmq-queue.git)
+
+
+
+
 ## Installation
 
-Get [Standard.Licensing](https://www.nuget.org/packages/KN.RabbitMQ.Queue) from NuGet.  The purpose of this fork is to add support to easiest .NET Standard development.
+Get [KN.RabbitMQ.Queue](https://www.nuget.org/packages/KN.RabbitMQ.Queue) from NuGet.  The purpose of this fork is to add support to easiest .NET Standard development.
 
 ```powershell
 PM> Install-Package KN.RabbitMQ.Queue
