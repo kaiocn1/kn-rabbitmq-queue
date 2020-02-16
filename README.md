@@ -4,7 +4,7 @@ Easy-to-use RabbitMQ Queue library for .NET products.
 
 ## Installation
 
-Get [Standard.Licensing](https://www.nuget.org/packages/) from NuGet.
+Get [Standard.Licensing](https://www.nuget.org/packages/KN.RabbitMQ.Queue) from NuGet.
 
 ```powershell
 PM> Install-Package KN.RabbitMQ.Queue
