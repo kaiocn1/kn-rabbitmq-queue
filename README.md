@@ -1,10 +1,11 @@
 ## About
 
 Easy-to-use RabbitMQ Queue library for .NET products.
+This is project is derived from [RabbitMQ.Cliente](https://www.rabbitmq.com/dotnet.html) library.
 
 ## Installation
 
-Get [Standard.Licensing](https://www.nuget.org/packages/KN.RabbitMQ.Queue) from NuGet.
+Get [Standard.Licensing](https://www.nuget.org/packages/KN.RabbitMQ.Queue) from NuGet.  The purpose of this fork is to add support to easiest .NET Standard development.
 
 ```powershell
 PM> Install-Package KN.RabbitMQ.Queue
@@ -85,6 +86,11 @@ Implement the interface IMessagingService, with the QueueConsumer attribute is t
         }
     }
 ```
+
+## Credits
+
+- [RabbitMQ](https://www.rabbitmq.com/dotnet.html) for the original work.
+
 
 ## License
 

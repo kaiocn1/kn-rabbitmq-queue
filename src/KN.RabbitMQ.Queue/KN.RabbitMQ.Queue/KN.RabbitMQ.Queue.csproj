@@ -17,4 +17,16 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <!-- Properties related to NuGet packaging: -->
+    <IsPackable>True</IsPackable> 
+    <Authors>Kaio Nascimento, Kaio</Authors>    
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>    
+    <PackageTags>rabbitmq;queue;rabbit;pub;message;kn;</PackageTags>
+    <RepositoryUrl>https://github.com/kaiocn1/kn-rabbitmq-queue/</RepositoryUrl>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
 </Project>
