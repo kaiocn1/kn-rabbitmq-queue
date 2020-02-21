@@ -17,7 +17,7 @@ namespace KN.RabbitMQ.Queue.ApiTest
             return new MessageResult() { Sucess = true };
         }
 
-        public bool UnavaibleService()
+        public bool UnavailableService()
         {
             return false;
         }

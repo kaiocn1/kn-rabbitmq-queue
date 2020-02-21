@@ -28,7 +28,7 @@ namespace KN.RabbitMQ.Queue.ConsoleClienteTest
             return returnMessage;
         }
 
-        public bool UnavaibleService()
+        public bool UnavailableService()
         {
             return false;
         }

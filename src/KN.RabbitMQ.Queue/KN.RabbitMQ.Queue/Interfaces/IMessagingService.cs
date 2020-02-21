@@ -6,6 +6,6 @@ namespace KN.RabbitMQ.Queue.Interfaces
     public interface IMessagingService
     {
         MessageResult Run(Message message, IServiceScopeFactory _scopeFactory);
-        bool UnavaibleService();
+        bool UnavailableService();
     }
 }

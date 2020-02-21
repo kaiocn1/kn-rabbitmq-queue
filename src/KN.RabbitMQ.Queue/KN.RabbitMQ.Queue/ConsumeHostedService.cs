@@ -87,7 +87,7 @@ namespace KN.RabbitMQ.Queue
             {
                 Task.Run(() => RunMessage(mensagem, servico, e.DeliveryTag));
 
-                while (servico.UnavaibleService())
+                while (servico.UnavailableService())
                 {
                     Thread.Sleep(10);
                 }
